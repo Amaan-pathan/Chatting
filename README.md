@@ -1,25 +1,28 @@
-This is the [assistant-ui](https://github.com/Yonom/assistant-ui) starter project.
+# 🤖 AI Chatbot — Powered by Google Gemini API
 
-## Getting Started
+An intelligent, conversational AI chatbot built using the **Google Gemini API** and **Assistant UI Library**.  
+This project provides a **ChatGPT-like experience** with a modern, minimal, and responsive interface — built entirely with **React**.
 
-First, add your OpenAI API key to `.env.local` file:
+---
 
-```
-OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-```
+## 🚀 Features
 
-Then, run the development server:
+- 💬 Chat with an AI model powered by **Google Gemini API**
+- ⚡ Smooth and interactive **Assistant UI**
+- 🧠 Context-aware conversations
+- 🎨 Clean and modern design (fully customizable)
+- 🔉 (Optional) Voice and image generation integration support
+- 🧩 Easy to extend and integrate into your own applications
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend:** Next.js, Assistant UI Library  
+- **Backend:** Node.js (optional if using Gemini API directly)
+- **API:** Google Gemini API Key  
+- **Language:** JavaScript (ES6+)
+
+---
+
+# Chatting
