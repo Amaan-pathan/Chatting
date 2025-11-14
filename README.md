@@ -25,4 +25,16 @@ This project provides a **ChatGPT-like experience** with a modern, minimal, and 
 
 ---
 
+## 🔐 Environment Setup
+
+1. Create a `.env.local` file (or add an Environment Variable on Vercel) with your Gemini key:
+   ```
+   GOOGLE_GENERATIVE_AI_API_KEY=your_gemini_api_key
+   ```
+   `GEMINI_API_KEY` or `NEXT_PUBLIC_GEMINI_API_KEY` can also be used if you already expose the key under those names.
+2. Restart the dev server (`npm run dev`) so Next.js can load the vars.
+3. On Vercel, set the same variable under **Project Settings → Environment Variables** and redeploy.
+
+---
+
 # Chatting
